@@ -8,14 +8,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("23480434", None))
+API_HASH = getenv("https://github.com/WCGKING/BrandrdXMusic", None)
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_TOKEN = getenv("7385127697:AAF4o_x_42x3Rzv518fxu094ExOixI-AH2w", None)
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://rajkumarnarauli5:rajkumarnarauli5@cluster0.lif7h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
@@ -25,13 +25,13 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7250012103"))
+OWNER_ID = int(getenv("5926699074", "7250012103"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HRKU-a3ea8a5c-90f6-4434-ace3-ba0485f7cb05")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BRANDRD_BOT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BRANDED_WORLD")
+SUPPORT_CHANNEL = getenv("https://t.me/sayarkiduniya", "https://t.me/BRANDRD_BOT")
+SUPPORT_CHAT = getenv("https://t.me/+6MrgQD-RRIA1MTg9", "https://t.me/BRANDED_WORLD")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -73,8 +73,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @BRANDEDSTRINGSESSION_BOT on Telegram
-STRING1 = getenv("STRING_SESSION",  None)
-STRING2 = getenv("STRING_SESSION2", None)
+STRING1 = getenv("BQFmSHIApKQ_Iba56Zn6SwoYmue0sBjL6gi_KZ_mOxy7l0BHTg-UmGDSWD2hmgtwUE7-UsGl92_I1nM_EH3mUcWrD9jrevV1rfZZv6jSkDyTJIEbEkJ4F0lSatwZtHm7Rryv6TQX8f0Au2pFdbyqoDyrxAxKKWXrqGeSpvja3tXIKakcXxE0DmCnT1FjaGNSV4ILQQTOnjt_KBtgFd6W3WFyoCQ87iWgte5cPxVfjm9joRPFEZ_utjR4Ch4m1xnWBwTkZcKR26snSDPQeiZtKbXAlBhZqm9HxKeGG71q8IScE3ZD-O9gdC_GXqpElELUjC99VbIFZw4pi6VINaaBAjFb24e4WgAAAAFhQkBCAA",  None)
+STRING2 = getenv("BQFmSHIApKQ_Iba56Zn6SwoYmue0sBjL6gi_KZ_mOxy7l0BHTg-UmGDSWD2hmgtwUE7-UsGl92_I1nM_EH3mUcWrD9jrevV1rfZZv6jSkDyTJIEbEkJ4F0lSatwZtHm7Rryv6TQX8f0Au2pFdbyqoDyrxAxKKWXrqGeSpvja3tXIKakcXxE0DmCnT1FjaGNSV4ILQQTOnjt_KBtgFd6W3WFyoCQ87iWgte5cPxVfjm9joRPFEZ_utjR4Ch4m1xnWBwTkZcKR26snSDPQeiZtKbXAlBhZqm9HxKeGG71q8IScE3ZD-O9gdC_GXqpElELUjC99VbIFZw4pi6VINaaBAjFb24e4WgAAAAFhQkBCAA", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
@@ -89,10 +89,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/62c76ac2095332a0ede75.jpg"
+    "https://graph.org/file/3bc14ec47c39a91a5dbbe.jpg", "https://te.legra.ph/file/62c76ac2095332a0ede75.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/4f59fb748e1990acfa297.jpg"
+    "https://graph.org/file/3bc14ec47c39a91a5dbbe.jpg", "https://te.legra.ph/file/4f59fb748e1990acfa297.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/14eb59ea7d31229d8d751.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/4310ea5f523520b2b765b.jpg"
